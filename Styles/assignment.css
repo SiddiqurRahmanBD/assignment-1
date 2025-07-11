@@ -88,7 +88,6 @@ nav li a{
     align-items: center;
      justify-content: space-between;
      gap: 150px;
-     border-radius: 10px;
      padding: 110px 141px;
 }
 .image{
@@ -102,4 +101,52 @@ nav li a{
 
     font-size: 24px;
     color: #252432;
+}
+
+.about{
+    max-width: 1140PX;
+    margin: 0 145px; 
+    background-color: #dbdaffdf;
+    gap: 10px ;
+    border-radius: 24px;
+    text-align: center;
+    /* padding: 50PX 142px 0 29px; */
+    padding: 50px 142px;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+}
+.about-items{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-bottom: 35px;
+}
+.number{
+    font-weight: bold;
+    font-size: 80px;
+}
+.section-title{
+     font-weight: bold;
+    font-size: 42px;
+}
+.star{
+    display: flex;
+    height: 20px;
+    
+}
+.user-review{
+    background-color:#ffffff;
+    bo
+}
+.avatar{
+    border-radius: 50px;
+}
+.reviewer{
+    
+    display: flex;
+    align-items: center;
+    gap:10px;
 }

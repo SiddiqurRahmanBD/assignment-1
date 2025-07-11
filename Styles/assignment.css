@@ -1,27 +1,25 @@
 
-.noto-serif-bengali-normal{
-  /* font-family: "Noto Serif Bengali", serif;
-  font-optical-sizing: auto;
-   font-style: normal;
-  font-variation-settings:
-    "wdth" 100; */
-}
-
-.noto-serif-bengali-normal {
-  /* font-family: "Noto Serif Bengali", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100; */
-}
 *{
-    font-family:"Noto Serif Bengali";
+    
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+}
 /* shared style */
 
 .header{
     background-image: url(/Assets/Hero-bg.png);
+
     /* Nav Style */
 }
 nav{
@@ -37,12 +35,13 @@ nav{
     color: white;
     border: none;
     background-color: #4E47FF;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 12px 36px;
    
 }
 .primary-btn:hover{
     background-color: red;
+    cursor: pointer;
 }
 nav a{
     text-decoration: none;
@@ -51,7 +50,7 @@ nav a{
     color: rgb(252, 7, 7);
 }
 .nav-title{
-    font-weight: 800;
+    font-weight: bold;
     font-size: 35px;
     color: #4E47FF;
   
@@ -82,5 +81,25 @@ nav li a{
     font-size: 65px;
     padding: 0 200px;
     
+/* Main styles */
+}
+.section{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+     gap: 150px;
+     border-radius: 10px;
+     padding: 110px 141px;
+}
+.image{
+    border-radius: 48px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.section-info{
 
+    font-size: 24px;
+    color: #252432;
 }
